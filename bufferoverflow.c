@@ -4,7 +4,6 @@ int main(int argc , char *argv[]){
     int var_int = 5;
     char char_two[8];
     char char_one[8];
-    
     strcpy(char_one,"one");
     strcpy(char_two,"two");
     printf("char_one address and value @[%p] %s\n",char_one,char_one);
